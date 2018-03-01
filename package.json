@@ -1,0 +1,46 @@
+{
+  "name": "koa-xml-parser",
+  "version": "0.1.0",
+  "description": "Simple XML parsing middleware for Koa 2.x",
+  "author": {
+    "name": "Denis Chernov",
+    "email": "twkr@twkrsplace.ru",
+    "url": "https://twkrsplace.ru"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": "imcrazytwkr/koa-xml-parser",
+  "keywords": [
+    "koa",
+    "xml",
+    "body",
+    "bodyParser",
+    "middleware"
+  ],
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "co-body": "5.x.x",
+    "xml2js": "0.x.x"
+  },
+  "devDependencies": {
+    "jest": "22.x.x",
+    "koa": "2.x.x",
+    "supertest": "3.x.x"
+  },
+  "engines": {
+    "node": "^7.10.1 || >= 8.1.4"
+  },
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testMatch": [
+      "**/test/*.js"
+    ],
+    "testEnvironment": "node",
+    "verbose": true,
+    "bail": true
+  }
+}
