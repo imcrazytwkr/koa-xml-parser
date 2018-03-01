@@ -49,6 +49,7 @@ options to the parser building function. `config` object has the following param
 - `type` - either a string or an array of strings representing content type(s) indicating
   that body should be parsed. Types must conform to a format of
   [type-is](https://github.com/jshttp/type-is) library.
+- `encoding` - a string representing explicit request encoding. `UTF-8` by default.
 - `limit` - a number or a string representing the request size limit. `1mb` by default.
 - `xml` - an object containing configuration object for
   [xml2js](https://github.com/Leonidas-from-XIV/node-xml2js) library that is used to parse XML
